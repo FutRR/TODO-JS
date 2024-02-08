@@ -1,37 +1,55 @@
-body{
-    margin: 200px;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  margin: 200px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1{
-    font-size: 50px;
-    margin-bottom: 50px;
+h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
 }
 
-#btn{
-    display: inline-block;
-    width: 100%;
-    height: 30px;
+#btn {
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#todoCards{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.todoCard {
+  position: relative;
+}
+
+.task {
+  width: 250px;
+  height: 350px;
+  font-size: 20px;
+  margin: 0 2px;
+  resize: none;
+}
+
+.delBtn {
+  position: absolute;
+  font-size: 30px;
+  bottom: 5px;
+  left: 225px;
+  cursor: pointer;
+}
+
+#count{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
     font-size: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+    width: 150px;
+    height: 50px;
 }
-
-.todoCard{
-    position: relative;
-
-}
-
-.task{
-    width: 250px;
-    height: 350px;
-    font-size: 20px;
-    resize: none;
-}
-
-.delBtn{
-    position: absolute;
-    font-size: 30px;
-    bottom: 5px;
-    left: 225px;}
