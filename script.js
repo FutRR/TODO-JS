@@ -35,6 +35,6 @@ function deleteTask(task) {
 
 function updateCount() {
   const cardCounter = document.querySelector("#count");
-  let count = document.querySelectorAll(".todoCard").length;
-  cardCounter.innerHTML = "Nb of cards : " + count;
+  let count = document.querySelectorAll(".todoCard").length; // takes as value the number of task cards
+  cardCounter.innerHTML = "Nb of cards : " + count; // display the count variable in the html
 }
